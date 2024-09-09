@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Messari Asset Tracker",
+  "version": "1.1",
+  "description": "Displays customizable assets and their prices from Messari.io",
+  "permissions": [
+    "https://data.messari.io/*",
+    "alarms",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.svg",
+      "48": "icon.svg",
+      "128": "icon.svg"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  },
+  "options_page": "settings.html"
+}

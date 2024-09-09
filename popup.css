@@ -1,0 +1,84 @@
+body {
+    width: 300px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    margin: 0;
+}
+
+.container {
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.asset {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.asset-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.asset-name {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.asset-price {
+    font-size: 16px;
+    color: #333;
+}
+
+.asset-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.asset-change24h {
+    font-weight: bold;
+}
+
+.asset-change24h.positive {
+    color: #28a745;
+}
+
+.asset-change24h.negative {
+    color: #dc3545;
+}
+
+.asset-market-cap {
+    color: #6c757d;
+}
+
+#last-updated {
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#open-settings {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+#open-settings:hover {
+    text-decoration: underline;
+}
